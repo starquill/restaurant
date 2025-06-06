@@ -1,0 +1,159 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url("./images/black-concrete-wall.jpg");
+    background-repeat: repeat;
+}
+header{
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 1.5vw;
+    padding-right: 5vw;
+    color: aliceblue;
+    background-color: black;
+    font-size: x-large;
+}
+div#content{
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+}
+h1{
+    color: orange;
+    font-size:5em;
+    text-shadow:
+    0 0 2px #ffcc00,
+    0 0 4px #ffcc00,
+    0 0 6px #ff9900,
+    0 0 8px #ff9900;
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    color: aliceblue;
+    font-size: 3em;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    text-wrap:inherit ;
+    color: aliceblue;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    width:fit-content;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border-color: lavender;
+    background-color: orange;
+    font-size: 1em;
+    margin-left: 1vw;
+    min-height: fit-content;
+    min-width: fit-content;
+}
+button:hover {
+    background-color: #f5c249;
+    color: #1c1c1e;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(245, 194, 73, 0.5);
+  }
+.imageContent{
+    flex: 2.5;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: left;
+    justify-content: center;
+    color: orange;
+    padding-left: 5vw;
+}
+.img{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/—Pngtree—burger\ food\ png\ free\ download_13329458.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+    min-height: 400px;
+    min-width: 300px;
+}
+
+/*menu*/
+.contentBox{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    background-color: lavenderblush;
+    background-repeat: repeat;
+    justify-content:start;
+}
+.card{
+    margin:77px ;
+    height: 320px;
+    width: 210px;
+    border-radius: 30px;
+    border-color:black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    border-color: black;
+    background-color: orange;
+}
+.pMenu{
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+}
+h4{
+    font-size: 20px;
+}
+
+
+/*about*/
+.aboutContent{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    background-color: lavender;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    flex-direction: column;
+}
+.contentAbout{
+    box-sizing: border-box;
+    margin: 50px;
+    padding: 100px;
+    font-family: 'Caveat', cursive;
+    font-size: x-large;
+    text-wrap: wrap;
+    height: 100%;
+}
+.aboutHead{
+    box-sizing: border-box;
+    padding: 40px;
+    margin: 50px;
+    margin-bottom: 0%;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
