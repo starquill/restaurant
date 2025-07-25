@@ -139,6 +139,7 @@ h4{
     margin-left: 20vw;
     margin-right: 20vw;
     flex-direction: column;
+    overflow-x: auto;
 }
 .contentAbout{
     box-sizing: border-box;
