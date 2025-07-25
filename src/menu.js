@@ -1,6 +1,6 @@
 export function loadMenu() {
-    const content = document.querySelector("#content");
-    content.innerHTML = `
+  const content = document.querySelector("#content");
+  content.innerHTML = `
       <div class="contentBox">
         <div class="card">
             <h4>Burger</h4>
@@ -34,5 +34,4 @@ export function loadMenu() {
         </div>
       </div>
     `;
-  }
-  
+}

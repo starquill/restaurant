@@ -1,6 +1,6 @@
-export function loadHome(){
-    const about=document.querySelector("#content");
-    about.innerHTML=`
+export function loadHome() {
+  const about = document.querySelector("#content");
+  about.innerHTML = `
     <div class="imageContent">
         <h1><b>Hungry?</b></h1>
         <h2>What are you waiting for..?</h2>
@@ -8,5 +8,5 @@ export function loadHome(){
         <Button>Menu</Button>
         </div>
         <div class="img">
-    </div>`
-    };
+    </div>`;
+}
